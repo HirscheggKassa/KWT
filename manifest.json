@@ -1,7 +1,7 @@
 {
-  "name": "HirscheggKassa",
-  "short_name": "Kassa",
-  "description": "Self-Service Buchungssystem",
+  "name": "Haus Bergkranz Kassa",
+  "short_name": "Bergkranz",
+  "description": "Self-Service Buchungssystem - Haus Bergkranz",
   "start_url": "/KWT/",
   "display": "fullscreen",
   "background_color": "#2C5F7C",
