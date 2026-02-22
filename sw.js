@@ -5,7 +5,7 @@
 // daher werden die Werte hier nochmal definiert.
 // Bei Änderungen in config.js auch hier anpassen!
 
-const CACHE_NAME = 'hirschegg-kassa-v1';
+const CACHE_NAME = 'bergkranz-kassa-v1';
 const BASE_PATH = '/KWT/';
 
 const urlsToCache = [
