@@ -1,8 +1,8 @@
 {
-  "name": "Kassa App",
+  "name": "HirscheggKassa",
   "short_name": "Kassa",
   "description": "Self-Service Buchungssystem",
-  "start_url": "/",
+  "start_url": "/KWT/",
   "display": "fullscreen",
   "background_color": "#2C5F7C",
   "theme_color": "#2C5F7C",
@@ -64,7 +64,7 @@
       "name": "Buchen",
       "short_name": "Buchen",
       "description": "Direkt zur Artikel-Buchung",
-      "url": "/#buchen",
+      "url": "/KWT/#buchen",
       "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
     }
   ],
