@@ -36,11 +36,10 @@ const APP_CONFIG = {
 
     // ==================== SUPABASE ====================
     // HIER DIE SUPABASE-DATEN DES KWT-PROJEKTS EINTRAGEN!
-    supabase: {
-        url: 'HIER_SUPABASE_URL_EINTRAGEN',
-        anon_key: 'HIER_SUPABASE_ANON_KEY_EINTRAGEN',
-    },
-
+supabase: {
+    url: 'https://npcvhsfvuroicdlztrbu.supabase.co',
+    anon_key: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5wY3Zoc2Z2dXJvaWNkbHp0cmJ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE3NzY3NDQsImV4cCI6MjA4NzM1Mjc0NH0.RpfMKlg6vjc2qxvDtJbFFlOP4zclhNVvJr_OvRZ5n0s',
+},
     // ==================== ADMIN ====================
     admin: {
         email: 'admin@hirscheggkassa.local',  // Admin-Login Email
