@@ -5,8 +5,8 @@
 // daher werden die Werte hier nochmal definiert.
 // Bei Änderungen in config.js auch hier anpassen!
 
-const CACHE_NAME = 'kassa-app-v1';  // Muss mit APP_CONFIG.app.cache_name übereinstimmen
-const BASE_PATH = '/';              // Muss mit APP_CONFIG.app.start_url übereinstimmen
+const CACHE_NAME = 'hirschegg-kassa-v1';
+const BASE_PATH = '/KWT/';
 
 const urlsToCache = [
     BASE_PATH,
