@@ -16,11 +16,11 @@ const APP_CONFIG = {
 
     // ==================== BETRIEB ====================
     betrieb: {
-        name: 'Söllerhaus',               // Name des Betriebs
+        name: 'HirscheggKassa',               // Name des Betriebs
         kurzname: 'Kassa',                 // App-Titel in der Navigation
-        vollname: 'SÖLLERHAUS',            // Großbuchstaben für Preisliste/PDFs
-        backup_prefix: 'Söllerhaus',       // Dateiname-Prefix für Backups
-        untertitel: 'Bergkäse vom Söllerhaus', // Käse-Bestellungen Untertitel
+        vollname: 'HIRSCHEGG KASSA',            // Großbuchstaben für Preisliste/PDFs
+        backup_prefix: 'HirscheggKassa',       // Dateiname-Prefix für Backups
+        untertitel: '',                         // Untertitel (optional)
         copyright: 'Entwickelt von: Claudio',
         version: 'v3.7',
     },
@@ -28,30 +28,31 @@ const APP_CONFIG = {
     // ==================== APP-IDENTIFIKATION ====================
     // Wird für lokale Datenbank, Service Worker Cache, PWA Manifest verwendet
     app: {
-        db_name: 'KassaApp',              // Name der lokalen IndexedDB (keine Sonderzeichen!)
-        cache_name: 'kassa-app-v1',        // Service Worker Cache-Name
-        start_url: '/',                    // PWA Start-URL (z.B. '/kassa/' oder '/')
+        db_name: 'HirscheggKassa',             // Name der lokalen IndexedDB (keine Sonderzeichen!)
+        cache_name: 'hirschegg-kassa-v1',      // Service Worker Cache-Name
+        start_url: '/KWT/',                    // PWA Start-URL (GitHub Pages Pfad)
         beschreibung: 'Self-Service Buchungssystem', // Meta-Description
     },
 
     // ==================== SUPABASE ====================
+    // HIER DIE SUPABASE-DATEN DES KWT-PROJEKTS EINTRAGEN!
     supabase: {
-        url: 'https://lslpyelpzakqrmrjznsc.supabase.co',
-        anon_key: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxzbHB5ZWxwemFrcXJtcmp6bnNjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc1ODQ3MjIsImV4cCI6MjA4MzE2MDcyMn0.ITXPK3CAXGO9p-hJqjOKqdQOh-TbH-WDMaYamxDgeqc',
+        url: 'HIER_SUPABASE_URL_EINTRAGEN',
+        anon_key: 'HIER_SUPABASE_ANON_KEY_EINTRAGEN',
     },
 
     // ==================== ADMIN ====================
     admin: {
-        email: 'admin@soellerhaus.local',  // Admin-Login Email
+        email: 'admin@hirscheggkassa.local',  // Admin-Login Email
         // Passwort wird vom Nutzer beim Login eingegeben
         // WICHTIG: Muss mit der Email im Supabase Auth + RLS Policies übereinstimmen!
     },
 
     // ==================== KONTAKT ====================
     kontakt: {
-        whatsapp_nummer: '436701818001',          // Ohne + und Leerzeichen
-        whatsapp_anzeige: '0043 670 181 8001',    // Anzeige-Format
-        whatsapp_aktiv: true,                      // WhatsApp-Button anzeigen?
+        whatsapp_nummer: '',                          // Ohne + und Leerzeichen
+        whatsapp_anzeige: '',                         // Anzeige-Format
+        whatsapp_aktiv: false,                        // WhatsApp-Button anzeigen?
     },
 
     // ==================== PREISE & STEUERN ====================
